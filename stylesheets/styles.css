@@ -7,30 +7,21 @@ body {
   font-weight:300;
 }
 
-.wrapper {
-  margin:0 auto;
-}
-
 img {
   max-width:100%;
+}
+
+.wrapper {
+  margin:0 auto;
 }
 
 .bot {
   display: inline-block;
 }
+
 .bot img {
   /** FOR NOW: To have some sort of order **/;
   width: 590px;
-}
-
-header ul a {
-  line-height:1;
-  font-size:11px;
-  color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:40px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -42,9 +33,5 @@ header ul a {
 }
 
 @media print, screen and (max-width: 480px) {
-
-}
-
-@media print {
 
 }
