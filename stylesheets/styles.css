@@ -20,8 +20,6 @@ img {
 }
 
 .bot img {
-  /** FOR NOW: To have some sort of order **/;
-  width: 590px;
   overflow: hidden;
   padding: 3px;
   background: #EEE;
@@ -31,19 +29,7 @@ img {
   font-size: 12px;
 }
 
-@media print, screen and (max-width: 960px) {
-
-}
-
-@media print, screen and (max-width: 720px) {
-
-}
-
-@media print, screen and (max-width: 480px) {
-
-}
-
-div.bot div.footer {
+.bot .footer {
   font-size: 16px;
   color: #666;
   font-weight: bold;
