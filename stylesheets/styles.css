@@ -22,6 +22,13 @@ img {
 .bot img {
   /** FOR NOW: To have some sort of order **/;
   width: 590px;
+  overflow: hidden;
+  padding: 3px;
+  background: #EEE;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 12px;
 }
 
 @media print, screen and (max-width: 960px) {
