@@ -25,7 +25,7 @@ img {
 }
 
 @media print, screen and (max-width: 960px) {
- 
+
 }
 
 @media print, screen and (max-width: 720px) {
@@ -34,4 +34,14 @@ img {
 
 @media print, screen and (max-width: 480px) {
 
+}
+
+div.bot div.footer {
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  text-align: right;
+  padding: 12px 0 12px 0;
+  margin: 0 12px 22px;
+  border-bottom: 1px solid #CACACA;
 }
